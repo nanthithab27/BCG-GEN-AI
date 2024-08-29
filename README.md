@@ -1,50 +1,45 @@
-Task instructions
-Your task is to manually extract key financial data for the last three fiscal years from the 10-K filings of Microsoft, Tesla, and Apple. Following the data collection, you will use Python to analyze this data, focusing on trends and insights that could inform the development of an AI-powered financial chatbot.
+Forage Gen AI - BCG
+Forage Gen AI is a cutting-edge generative AI model developed by Boston Consulting Group (BCG). Designed to [specific purpose or application], this tool leverages advanced AI techniques to [describe primary functions, such as generating content, analyzing data, automating tasks, etc.].
 
-Step 1: Data extraction
-Navigate to the SEC's EDGAR database:
+Overview
+Forage Gen AI harnesses the power of generative AI to [briefly describe the core capabilities and benefits]. Whether you're [target users or industries, e.g., in the field of marketing, research, content creation], Forage Gen AI provides [specific advantages, such as enhanced productivity, novel insights, or improved efficiency].
 
-Microsoft
-Tesla
-Apple
-Manual extraction:
+Key Features
+Advanced Generation: Produces high-quality [text/images/data] based on user inputs.
+Customizable: Easily adaptable to various use cases and industries.
+Scalable: Designed to handle a range of workloads, from small-scale tasks to large-scale operations.
+Installation
+To set up Forage Gen AI, follow these steps:
 
-For each company, find the 10-K filings for the last three fiscal years.
-Extract the following financial figures: Total Revenue, Net Income, Total Assets, Total Liabilities, and Cash Flow from Operating Activities.
-Organize Your Data:
+Clone the repository:
 
-Compile the extracted data into an Excel spreadsheet for easy reference during your Python analysis.
-Step 2: Preparing your Jupyter Notebook environment
-Install Jupyter (if not already installed):
+bash
+Copy code
+git clone https://github.com/yourusername/forage-gen-ai-bcg.git
+Navigate to the project directory:
 
-Install Jupyter using pip if you haven't already:
-pip install notebook
-Launch Jupyter Notebook:
-jupyter notebook
-This command should open Jupyter in your web browser.
-Create a new notebook:
+bash
+Copy code
+cd forage-gen-ai-bcg
+Install dependencies:
 
-In the Jupyter interface, create a new notebook for your analysis.
-Step 3: Python analysis in Jupyter
-Import pandas:
+bash
+Copy code
+pip install -r requirements.txt
+Configure your environment: Set up necessary environment variables as described in the config.example.json file.
 
-At the beginning of your notebook, import the pandas library to work with your data.
-import pandas as pd
-Load your data:
+Usage
+To utilize Forage Gen AI:
 
-Convert your Excel file to a CSV file for easier handling, then load it into a DataFrame.
-df = pd.read_csv('path_to_your_csv_file.csv')
-Analyzing trends with pandas:
+Run the main application:
 
-Use pandas to calculate year-over-year changes for each financial metric. You can do this by creating new columns in your DataFrame that represent the percentage change from one year to the next.
-df['Revenue Growth (%)'] = df.groupby(['Company'])['Total Revenue'].pct_change() * 100
-df['Net Income Growth (%)'] = df.groupby(['Company'])['Net Income'].pct_change() * 100
-Explore other aggregate functions or groupings to analyze the data across different dimensions (by company, over years, etc.).
-Summarizing findings:
+bash
+Copy code
+python main.py
+Provide your input parameters according to the model’s requirements.
 
-Conclude your analysis by summarizing your findings directly in the notebook. Use markdown cells to add narrative explanations of your analysis, discussing the trends and changes in financial metrics you've identified.
-Step 4: Documentation and submission
-Document your analysis: Use the markdown feature in Jupyter Notebook to document your methodology, observations, and conclusions throughout the notebook.
-Export your notebook: Once your analysis is complete, export your Jupyter Notebook as a PDF or HTML file for submission.
-You can do this from the "File" menu in Jupyter, selecting "Download as" and then choosing your preferred format.
-This approach allows you to focus on the core analytical aspects using pandas within a Jupyter Notebook, providing a clear, documented narrative of your financial analysis process. By the end of this task, you'll have a comprehensive understanding of how to analyze financial data programmatically, a valuable skill set for data-driven decision-making.
+Review the generated output which will be displayed or saved as specified.
+
+Examples
+Content Generation: Generate high-quality text for [specific applications, e.g., marketing copy, articles].
+Data Analysis: Use AI to analyze and interpret complex datasets.
