@@ -9,4 +9,6 @@ Advanced Generation: Produces high-quality [text/images/data] based on user inpu
 Customizable: Easily adaptable to various use cases and industries.
 Scalable: Designed to handle a range of workloads, from small-scale tasks to large-scale operations.
 
+I even created a Financial Gen AI ChatBot which caulcated the Net Income, Revenue Growth and much more.
+
 Do clone my repository and give it a try!
