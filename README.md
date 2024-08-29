@@ -1,4 +1,4 @@
-Forage Gen AI - BCG
+#Forage Gen AI - BCG#
 Forage Gen AI is a cutting-edge generative AI model developed by Boston Consulting Group (BCG). Designed to [specific purpose or application], this tool leverages advanced AI techniques to [describe primary functions, such as generating content, analyzing data, automating tasks, etc.].
 
 Overview
